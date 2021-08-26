@@ -20,12 +20,12 @@
  */
 namespace Lof\MagefanCompatible\Plugin\Magento\Ui\Component\Wysiwyg;
 
-use Magento\Framework\App\ObjectManager;
+use Magefan\WysiwygAdvanced\Plugin\Magento\Ui\Component\Wysiwyg\ConfigPlugin as MagefanConfigPlugin;
 
 /**
  * Class Config Plugin
  */
-class ConfigPlugin extends \Magefan\WysiwygAdvanced\Plugin\Magento\Ui\Component\Wysiwyg\ConfigPlugin
+class ConfigPlugin extends MagefanConfigPlugin
 {
 
     /**
